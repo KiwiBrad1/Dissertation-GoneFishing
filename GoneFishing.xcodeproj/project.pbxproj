@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6A487827EB8CE9001116BC /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3F6A487727EB8CE9001116BC /* GoogleMaps */; };
+		3F89424F27A010D2004F3481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89424E27A010D2004F3481 /* AppDelegate.swift */; };
+		3F89425127A010D2004F3481 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89425027A010D2004F3481 /* SceneDelegate.swift */; };
+		3F89425327A010D2004F3481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89425227A010D2004F3481 /* ViewController.swift */; };
+		3F89425627A010D2004F3481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F89425427A010D2004F3481 /* Main.storyboard */; };
+		3F89425827A010D3004F3481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F89425727A010D3004F3481 /* Assets.xcassets */; };
+		3F89425B27A010D3004F3481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F89425927A010D3004F3481 /* LaunchScreen.storyboard */; };
+		3F89426627A010D3004F3481 /* GoneFishingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89426527A010D3004F3481 /* GoneFishingTests.swift */; };
+		3F89427027A010D3004F3481 /* GoneFishingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89426F27A010D3004F3481 /* GoneFishingUITests.swift */; };
+		3F89427227A010D3004F3481 /* GoneFishingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89427127A010D3004F3481 /* GoneFishingUITestsLaunchTests.swift */; };
+		3F89427F27A011F8004F3481 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89427E27A011F8004F3481 /* Location.swift */; };
+		557862AB08C3FBF232022F2E /* Pods_GoneFishing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8510BE874027564979A07 /* Pods_GoneFishing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F89426227A010D3004F3481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F89424327A010D2004F3481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F89424A27A010D2004F3481;
+			remoteInfo = GoneFishing;
+		};
+		3F89426C27A010D3004F3481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F89424327A010D2004F3481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F89424A27A010D2004F3481;
+			remoteInfo = GoneFishing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3EB9B0115FD319CAAEDE9B /* Pods-GoneFishing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoneFishing.debug.xcconfig"; path = "Target Support Files/Pods-GoneFishing/Pods-GoneFishing.debug.xcconfig"; sourceTree = "<group>"; };
+		3F89424B27A010D2004F3481 /* GoneFishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoneFishing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F89424E27A010D2004F3481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F89425027A010D2004F3481 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F89425227A010D2004F3481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F89425527A010D2004F3481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F89425727A010D3004F3481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F89425A27A010D3004F3481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F89425C27A010D3004F3481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F89426127A010D3004F3481 /* GoneFishingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoneFishingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F89426527A010D3004F3481 /* GoneFishingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoneFishingTests.swift; sourceTree = "<group>"; };
+		3F89426B27A010D3004F3481 /* GoneFishingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoneFishingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F89426F27A010D3004F3481 /* GoneFishingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoneFishingUITests.swift; sourceTree = "<group>"; };
+		3F89427127A010D3004F3481 /* GoneFishingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoneFishingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F89427E27A011F8004F3481 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		803D65FA42F6EFB0C71B1A1F /* Pods-GoneFishing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoneFishing.release.xcconfig"; path = "Target Support Files/Pods-GoneFishing/Pods-GoneFishing.release.xcconfig"; sourceTree = "<group>"; };
+		C3D8510BE874027564979A07 /* Pods_GoneFishing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoneFishing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F89424827A010D2004F3481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A487827EB8CE9001116BC /* GoogleMaps in Frameworks */,
+				557862AB08C3FBF232022F2E /* Pods_GoneFishing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F89425E27A010D3004F3481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F89426827A010D3004F3481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F89424227A010D2004F3481 = {
+			isa = PBXGroup;
+			children = (
+				3F89424D27A010D2004F3481 /* GoneFishing */,
+				3F89426427A010D3004F3481 /* GoneFishingTests */,
+				3F89426E27A010D3004F3481 /* GoneFishingUITests */,
+				3F89424C27A010D2004F3481 /* Products */,
+				E224B6032696566F23E6991B /* Pods */,
+				B99C2F88B8F86FF6A2FD0DFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F89424C27A010D2004F3481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F89424B27A010D2004F3481 /* GoneFishing.app */,
+				3F89426127A010D3004F3481 /* GoneFishingTests.xctest */,
+				3F89426B27A010D3004F3481 /* GoneFishingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F89424D27A010D2004F3481 /* GoneFishing */ = {
+			isa = PBXGroup;
+			children = (
+				3F89424E27A010D2004F3481 /* AppDelegate.swift */,
+				3F89425027A010D2004F3481 /* SceneDelegate.swift */,
+				3F89425227A010D2004F3481 /* ViewController.swift */,
+				3F89425427A010D2004F3481 /* Main.storyboard */,
+				3F89425727A010D3004F3481 /* Assets.xcassets */,
+				3F89425927A010D3004F3481 /* LaunchScreen.storyboard */,
+				3F89425C27A010D3004F3481 /* Info.plist */,
+				3F89427E27A011F8004F3481 /* Location.swift */,
+			);
+			path = GoneFishing;
+			sourceTree = "<group>";
+		};
+		3F89426427A010D3004F3481 /* GoneFishingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F89426527A010D3004F3481 /* GoneFishingTests.swift */,
+			);
+			path = GoneFishingTests;
+			sourceTree = "<group>";
+		};
+		3F89426E27A010D3004F3481 /* GoneFishingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F89426F27A010D3004F3481 /* GoneFishingUITests.swift */,
+				3F89427127A010D3004F3481 /* GoneFishingUITestsLaunchTests.swift */,
+			);
+			path = GoneFishingUITests;
+			sourceTree = "<group>";
+		};
+		B99C2F88B8F86FF6A2FD0DFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8510BE874027564979A07 /* Pods_GoneFishing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E224B6032696566F23E6991B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3EB9B0115FD319CAAEDE9B /* Pods-GoneFishing.debug.xcconfig */,
+				803D65FA42F6EFB0C71B1A1F /* Pods-GoneFishing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F89424A27A010D2004F3481 /* GoneFishing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F89427527A010D3004F3481 /* Build configuration list for PBXNativeTarget "GoneFishing" */;
+			buildPhases = (
+				A8006F2623E675D64B8586A3 /* [CP] Check Pods Manifest.lock */,
+				3F89424727A010D2004F3481 /* Sources */,
+				3F89424827A010D2004F3481 /* Frameworks */,
+				3F89424927A010D2004F3481 /* Resources */,
+				31C057000D3BEDB847AE004F /* [CP] Embed Pods Frameworks */,
+				23A6C369CFE666ADB83F8680 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoneFishing;
+			packageProductDependencies = (
+				3F6A487727EB8CE9001116BC /* GoogleMaps */,
+			);
+			productName = GoneFishing;
+			productReference = 3F89424B27A010D2004F3481 /* GoneFishing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F89426027A010D3004F3481 /* GoneFishingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F89427827A010D3004F3481 /* Build configuration list for PBXNativeTarget "GoneFishingTests" */;
+			buildPhases = (
+				3F89425D27A010D3004F3481 /* Sources */,
+				3F89425E27A010D3004F3481 /* Frameworks */,
+				3F89425F27A010D3004F3481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F89426327A010D3004F3481 /* PBXTargetDependency */,
+			);
+			name = GoneFishingTests;
+			productName = GoneFishingTests;
+			productReference = 3F89426127A010D3004F3481 /* GoneFishingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F89426A27A010D3004F3481 /* GoneFishingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F89427B27A010D3004F3481 /* Build configuration list for PBXNativeTarget "GoneFishingUITests" */;
+			buildPhases = (
+				3F89426727A010D3004F3481 /* Sources */,
+				3F89426827A010D3004F3481 /* Frameworks */,
+				3F89426927A010D3004F3481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F89426D27A010D3004F3481 /* PBXTargetDependency */,
+			);
+			name = GoneFishingUITests;
+			productName = GoneFishingUITests;
+			productReference = 3F89426B27A010D3004F3481 /* GoneFishingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F89424327A010D2004F3481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3F89424A27A010D2004F3481 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3F89426027A010D3004F3481 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3F89424A27A010D2004F3481;
+					};
+					3F89426A27A010D3004F3481 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3F89424A27A010D2004F3481;
+					};
+				};
+			};
+			buildConfigurationList = 3F89424627A010D2004F3481 /* Build configuration list for PBXProject "GoneFishing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F89424227A010D2004F3481;
+			packageReferences = (
+				3F6A487627EB8CE9001116BC /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */,
+			);
+			productRefGroup = 3F89424C27A010D2004F3481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F89424A27A010D2004F3481 /* GoneFishing */,
+				3F89426027A010D3004F3481 /* GoneFishingTests */,
+				3F89426A27A010D3004F3481 /* GoneFishingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F89424927A010D2004F3481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F89425B27A010D3004F3481 /* LaunchScreen.storyboard in Resources */,
+				3F89425827A010D3004F3481 /* Assets.xcassets in Resources */,
+				3F89425627A010D2004F3481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F89425F27A010D3004F3481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F89426927A010D3004F3481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A6C369CFE666ADB83F8680 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoneFishing/Pods-GoneFishing-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoneFishing/Pods-GoneFishing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoneFishing/Pods-GoneFishing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C057000D3BEDB847AE004F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoneFishing/Pods-GoneFishing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoneFishing/Pods-GoneFishing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoneFishing/Pods-GoneFishing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8006F2623E675D64B8586A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoneFishing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F89424727A010D2004F3481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F89425327A010D2004F3481 /* ViewController.swift in Sources */,
+				3F89424F27A010D2004F3481 /* AppDelegate.swift in Sources */,
+				3F89427F27A011F8004F3481 /* Location.swift in Sources */,
+				3F89425127A010D2004F3481 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F89425D27A010D3004F3481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F89426627A010D3004F3481 /* GoneFishingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F89426727A010D3004F3481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F89427227A010D3004F3481 /* GoneFishingUITestsLaunchTests.swift in Sources */,
+				3F89427027A010D3004F3481 /* GoneFishingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F89426327A010D3004F3481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F89424A27A010D2004F3481 /* GoneFishing */;
+			targetProxy = 3F89426227A010D3004F3481 /* PBXContainerItemProxy */;
+		};
+		3F89426D27A010D3004F3481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F89424A27A010D2004F3481 /* GoneFishing */;
+			targetProxy = 3F89426C27A010D3004F3481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F89425427A010D2004F3481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F89425527A010D2004F3481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F89425927A010D3004F3481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F89425A27A010D3004F3481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F89427327A010D3004F3481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F89427427A010D3004F3481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F89427627A010D3004F3481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3EB9B0115FD319CAAEDE9B /* Pods-GoneFishing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoneFishing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MiniChallenge.GoneFishing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F89427727A010D3004F3481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803D65FA42F6EFB0C71B1A1F /* Pods-GoneFishing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoneFishing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MiniChallenge.GoneFishing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F89427927A010D3004F3481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MiniChallenge.GoneFishingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoneFishing.app/GoneFishing";
+			};
+			name = Debug;
+		};
+		3F89427A27A010D3004F3481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MiniChallenge.GoneFishingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoneFishing.app/GoneFishing";
+			};
+			name = Release;
+		};
+		3F89427C27A010D3004F3481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MiniChallenge.GoneFishingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoneFishing;
+			};
+			name = Debug;
+		};
+		3F89427D27A010D3004F3481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MiniChallenge.GoneFishingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoneFishing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F89424627A010D2004F3481 /* Build configuration list for PBXProject "GoneFishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F89427327A010D3004F3481 /* Debug */,
+				3F89427427A010D3004F3481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F89427527A010D3004F3481 /* Build configuration list for PBXNativeTarget "GoneFishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F89427627A010D3004F3481 /* Debug */,
+				3F89427727A010D3004F3481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F89427827A010D3004F3481 /* Build configuration list for PBXNativeTarget "GoneFishingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F89427927A010D3004F3481 /* Debug */,
+				3F89427A27A010D3004F3481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F89427B27A010D3004F3481 /* Build configuration list for PBXNativeTarget "GoneFishingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F89427C27A010D3004F3481 /* Debug */,
+				3F89427D27A010D3004F3481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F6A487627EB8CE9001116BC /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YAtechnologies/GoogleMaps-SP";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F6A487727EB8CE9001116BC /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F6A487627EB8CE9001116BC /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F89424327A010D2004F3481 /* Project object */;
+}
